@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+	background-image: url("img/background.jpg");
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+}
+.intro{
+	font-family: Verdana;
+	font-style: italic;
+	font-size: 25px;
+	text-shadow: 2px 2px 4px #000000;
+}
+.name{
+  font-family: Verdana;
+  font-style: bold;
+  font-size: 45px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.profile{
+  position: absolute;
+  top: 115%;
+  left: 8%;
+}
+
+.under{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+.over{
+    position:absolute;
+    left:40px;
+    top:10px;
+    z-index:-1;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="./img/Beach_back.jpg" alt="Beach_back" style="width:100%;">
+  <div class="centered">
+  	<div class="intro">Hello, I'm</div>
+  	<div class="name">Xige Wu (Jessica)</div>
+  </div>
+</div>
+<div class="profile">
+	<img src="./img/Profile.jpg" alt="Profile" style="border-radius: 10%; border-style: outset" width="20%">
+</div>
+
+<center>
+	<div class="aboutMe">
+		<p>
+			- University of Michigan - Ann Arbor
+			- Computer Science & Data Science
+		</p>
+	</div>
+</center>
+
+</body>
+</html> 
